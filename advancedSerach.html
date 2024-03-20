@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="my-style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Search</title>
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <div class="menu">
+          <a href="./index.html"><button>Main menu</button></a>
+          <a href="./imageSearch.html"><button>Image Search</button></a>
+        </div>
+      </header>
+      <div class="search-group">
+        <form action="https://www.google.com/search">
+          <div class="input-group">
+            <div class="search-input">
+              <label for="as_q">all these words:</label>
+              <input type="text" name="as_q" />
+            </div>
+            <div class="search-input">
+              <label for="as_epq">this exact word or phrase:</label>
+              <input type="text" name="as_epq" />
+            </div>
+            <div class="search-input">
+              <label for="as_oq">any of these words:</label>
+              <input type="text" name="as_oq" />
+            </div>
+            <div class="search-input">
+              <label for="as_eq">none of these words:</label>
+              <input type="text" name="as_eq" />
+            </div>
+          </div>
+          <div id="search-btns">
+            <input type="submit" value="Google Search" />
+          </div>
+        </form>
+      </div>
+      <footer><p>(c)</p></footer>
+    </div>
+  </body>
+</html>
+
+<!-- this exact word or phrase: as_epq -->
+<!-- any of these words: as_oq -->
+<!-- none of these words: as_eq -->
